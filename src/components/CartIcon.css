@@ -1,0 +1,16 @@
+
+.cart-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5d5d5f;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .cart-icon i {
+    font-size: 20px;
+  }

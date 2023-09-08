@@ -1,0 +1,33 @@
+.swiper {
+    width: 100%;
+    height: 30%;
+  }
+  .image_container{
+    height: 350px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .image_container img{
+    object-fit: cover;
+    width: 80%;
+    height: 90%;
+    background-size: cover;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }

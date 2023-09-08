@@ -1,0 +1,103 @@
+.product_detail {
+    display: flex;
+   align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    
+  }
+  
+  .product_image img {
+    max-width: 700px;
+    height: auto;
+  }
+  
+  .product_info {
+    flex: 10;
+    padding: 0 60px;
+  }
+  
+  .product_info h2 {
+    margin-bottom: 10px;
+  }
+  
+  .product_info p {
+    margin-bottom: 8px;
+  }
+  
+  .product_info button {
+    background-color: #d49797;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 250px ;
+    height:50px ;
+
+  }
+  
+  .product_info button:hover {
+    background-color: #0c0b0b;
+  }
+  .product_info input{
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    padding: 10px 10px;
+    margin-right: 20px;
+    width: 50px;
+    height: 30px;
+  }
+  .img_similaire{
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  @keyframes defilement {
+    0% {
+      transform: translateX(4);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /* Appliquer l'animation à l'image */
+  .img_similaire .card {
+    width: 100px; /* Ajustez la largeur de l'image selon vos besoins */
+    animation: defilement 0s linear infinite; /* Défilement pendant 10 secondes en boucle */
+  }
+
+ .box_left{
+    width: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+
+ }
+ .box_left img{
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+ }
+
+ .img_similaire .card {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    border: none;
+    height: 300px;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
